@@ -437,7 +437,7 @@ body {
     .header nav {
         position: fixed;
         top: 6rem;
-        right: -120;
+        right: 2px;;
         height: calc(100vh-6rem);
         width: 100vw;
         background: rgba(0, 0, 0, 0.5);
@@ -447,7 +447,7 @@ body {
 
     .header nav ul {
         height: 100%;
-        width: 33rem;
+        width: 100vw;
         background: #fff;
         flex-flow: column;
         justify-content: center;
