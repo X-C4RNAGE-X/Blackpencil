@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.2/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="style_1.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="stylesheet" href="style_2.css" />
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("TVN6Ycfnc9W4361oI");
+    })();
+  </script>
+</head>
+
+<body onload="slide()">
+  <!--header section starts-->
+  <header class="header fixed-top">
+    <a href="/" class="logo"><img class="logoimg" src="l.png" widht="120" height="80"></a>
+    <nav id="nt">
+      <!-- <ul >
+                <li><a style="text-decoration: none;" href="index_1.html">Home</a></li>
+                <li><a style="text-decoration: none;" href="contact_1.html">Contact Us</a></li>
+                <li><a style="text-decoration: none;" href="#about">About</a></li>
+                <li><a style="text-decoration: none;" href="#services">Services</a></li>
+                <li><a style="text-decoration: none;" href="#projects">Projects</a></li>
+            </ul> -->
+    </nav>
+    <div class="fas fa-bars" id=""></div>
+  </header>
+  <!--header section ends-->
+  <div class="container">
+    <span class="big-circle"></span>
+    <!-- <img src="#" class="square" alt="" /> -->
+    <div class="form">
+      <div class="contact-info">
+        <h3 class="title">Contact Us</h3>
+        <iframe
+        style="padding: 5px; height: 400px ; width: 100%;  box-shadow: 1px 2px 7px 7px rgba(160, 167, 174, 0.693);"
+         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.9491226201394!2d88.35356290000001!3d22.618375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89d7b50364461%3A0x8331341c43ce7eb7!2sGhusuri%20Government%20Housing%20Estate!5e0!3m2!1sen!2sin!4v1696692813663!5m2!1sen!2sin" class="map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="info">
+          <div class="information">
+            <img src="image22.png" class="icon" alt="" />
+            <p>11/4/16 Dharmatala Road BelurMath , Howrah 711202</p>
+          </div>
+          <div class="information">
+            <img src="image23.png" class="icon" alt="" />
+            <p>gondebjyoti@gmail.com</p>
+          </div>
+          <div class="information">
+            <img src="image24.png" class="icon" alt="" />
+            <p>9330369486</p>
+          </div>
+        </div>
+
+        <div class="social-media">
+          <p>Connect with us :</p>
+          <div class="social-icons">
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <span class="circle one"></span>
+        <span class="circle two"></span>
+
+        <form autocomplete="off">
+          <h3 class="title">Let&apos; Talk</h3>
+          <div class="input-container">
+            <input type="text" name="name" id="name" class="input" />
+            <label for="">Username</label>
+            <span>Username</span>
+          </div>
+          <div class="input-container">
+            <input type="email" name="email" id="email" class="input" />
+            <label for="">Email</label>
+            <span>Email</span>
+          </div>
+          <div class="input-container">
+            <input type="tel" id="ph" name="phone" class="input" />
+            <label for="">Phone</label>
+            <span>Phone</span>
+          </div>
+          <div class="input-container textarea">
+            <textarea name="message" id="msg" class="input"></textarea>
+            <label for="">Message</label>
+            <span>Message</span>
+          </div>
+          <input type="button" onclick="send()" value="Send" class="btn" />
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="main.js"></script>
+  <script src="main2.js"></script>
+</body>
+
+</html>

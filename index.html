@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- magnific popup css link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    <!-- font awesome file-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- bootstrap file link  -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.2/css/bootstrap-reboot.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style_1.css">
+    <link rel="stylesheet" href="slider.css">
+
+    <title>Architechture and Interior Design Website</title>
+
+</head>
+
+<body onload="slide()">
+    <!--header section starts-->
+    <div id="nav">
+        <header class="header fixed-top">
+            <a href="" class="logo"><img class="logoimg" src="logo.png" widht="120" height="80"  loading="lazy"></a>
+            <nav id="nt">
+                <ul>
+                    <li><a style="text-decoration: none;" href="#home">Home</a></li>
+                    <li><a style="text-decoration: none;" href="contact_1.html">Contact Us</a></li>
+                    <li><a style="text-decoration: none;" href="#about">About</a></li>
+                    <li><a style="text-decoration: none;" href="#service">Services</a></li>
+                    <li><a style="text-decoration: none;" href="#projects">Projects</a></li>
+                </ul>
+            </nav>
+            <div class="fas fa-bars" id=""></div>
+        </header>
+    </div>
+    <!--header section ends-->
+    <!--home section starts-->
+    <section id="home" class="home container-fluid p-0">
+        <div class="row hero">
+            <div class="col pl-5 ml-sm-5 p-0">
+                <div class="slide">
+                    <img src="image3.jpg" alt="" loading="lazy">
+                    <div>
+                        <h1 class="caption">Interior Designs</h1>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="image5.jpg" alt="" loading="lazy">
+                    <div>
+                        <h1 class="caption">Sample Spacing</h1>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="image11.jpg" alt="" loading="lazy">
+                    <div>
+                        <h1 class="caption">Paintings</h1>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="image7.jpg" alt="" loading="lazy">
+                    <div>
+                        <h1 class="caption">False Ceilings</h1>
+                    </div>
+                </div>
+                <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
+                <span class="arrow next" onclick="controller(1)">&#10095;</span>
+
+            </div>
+        </div>
+        <div class="counting">
+            <div class="box">
+                <h1 class="count" data-count="1200">1200+</h1>
+                <h3>Working Hours</h3>
+            </div>
+            <div class="box">
+                <h1 class="count" data-count="15">15+</h1>
+                <h3>Awards</h3>
+            </div>
+            <div class="box">
+                <h1 class="count" data-count="1000">1000+</h1>
+                <h3>Clients</h3>
+            </div>
+            <div class="box">
+                <h1 class="count" data-count="840">840+</h1>
+                <h3>Projects</h3>
+            </div>
+        </div>
+
+
+
+
+
+
+    </section>
+
+
+    <!--home section ends-->
+    <!--About section starts-->
+    <section id="about" class="about container">
+        <h1 class="heading">About Us</h1>
+        <div class="acnt">
+            <div class="left">
+                <img src="./img12.jpg" class="img" height="500px" width="100% " alt="leftimg" loading="lazy">
+            </div>
+            <div class="right">
+                <h2>A Trusted Interior Designer</h2>
+                <p>At BlackPencil , we are passionate about transforming spaces into unique and captivating
+                    environments. With a deep appreciation for aesthetics, functionality, and creativity, our team of
+                    experienced interior designers is dedicated to crafting spaces that reflect the individuality and
+                    lifestyle of each client. From concept to completion, we work closely with our clients to understand
+                    their vision, preferences, and requirements, ensuring that every design project we undertake is a
+                    true reflection of their personality and aspirations. With a commitment to excellence, attention to
+                    detail, and a keen eye for the latest trends, we take pride in delivering exceptional interior
+                    design solutions that not only meet but exceed expectations. Whether it's a residential haven, a
+                    commercial space, or a hospitality venture, we strive to bring your dream interiors to life with
+                    elegance and sophistication. Discover the art of interior design with us and embark on a journey to
+                    elevate your living and working spaces to new heights of beauty and functionality. Welcome to [Your
+                    Interior Design Firm Name], where creativity knows no bounds, and your satisfaction is our top
+                    priority.</p>
+                <div class="icons">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-pinterest"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About section ends-->
+    <!--Service Section Starts-->
+    <div>
+        <section id="service" class="service">
+            <div class="heading">Our Services</div>
+            <div class="box-container mx-auto">
+                <div class="box">
+                    <div class="fas fa-pallete"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam harum tempora vitae? Tempora
+                        temporibus deleniti doloremque, dignissimos quidem iusto placeat nisi rem similique animi
+                        laborum,
+                        maiores optio enim, pariatur dolorum?</p>
+                </div>
+                <div class="box">
+                    <div class="fas fa-tools"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam harum tempora vitae? Tempora
+                        temporibus deleniti doloremque, dignissimos quidem iusto placeat nisi rem similique animi
+                        laborum,
+                        maiores optio enim, pariatur dolorum?</p>
+                </div>
+                <div class="box">
+                    <div class="fas fa-house-user"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam harum tempora vitae? Tempora
+                        temporibus deleniti doloremque, dignissimos quidem iusto placeat nisi rem similique animi
+                        laborum,
+                        maiores optio enim, pariatur dolorum?</p>
+                </div>
+                <div class="box">
+                    <div class="fas fa-couch"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam harum tempora vitae? Tempora
+                        temporibus deleniti doloremque, dignissimos quidem iusto placeat nisi rem similique animi
+                        laborum,
+                        maiores optio enim, pariatur dolorum?</p>
+                </div>
+                <div class="box">
+                    <div class="fas fa-bed"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam harum tempora vitae? Tempora
+                        temporibus deleniti doloremque, dignissimos quidem iusto placeat nisi rem similique animi
+                        laborum,
+                        maiores optio enim, pariatur dolorum?</p>
+                </div>
+                <div class="box">
+                    <div class="fas fa-bath"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam harum tempora vitae? Tempora
+                        temporibus deleniti doloremque, dignissimos quidem iusto placeat nisi rem similique animi
+                        laborum,
+                        maiores optio enim, pariatur dolorum?</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Service section ends-->
+        <!--Project Section Starts-->
+        <section id="projects" class="project">
+            <h1 class="heading">Our Projects</h1>
+            <div class="box-container">
+                <div class="box" id="box1">
+                    <div id="over1" class="over">
+                        <p>House</p>
+                    </div>
+                    <a href="image14.jpg" title="house">
+                        <img src="image14.jpg" alt="" loading="lazy">
+                    </a>
+                </div>
+                <div id="box" class="box">
+                    <div id="over" class="over">
+                        <p>Hall</p>
+                    </div>
+                    <a href="image15.jpg" title="hall">
+                        <img src="image15.jpg" alt="" loading="lazy">
+                    </a>
+                </div>
+                <div class="box" id="box2">
+                    <div id="over2" class="over">
+                        <p>Pule</p>
+                    </div>
+                    <a href="image16.jpg" title="pule">
+                        <img src="image16.jpg" alt="" loading="lazy">
+                    </a>
+                </div>
+                <div class="box" id="box3">
+                    <div id="over3" class="over">
+                        <p>Kitchen</p>
+                    </div>
+                    <a href="image17.jpg" title="kitchen">
+                        <img src="image17.jpg" alt="" loading="lazy">
+                    </a>
+                </div>
+                <div class="box" id="box4">
+                    <div id="over4" class="over">
+                        <p>Bathroom</p>
+                    </div>
+                    <a href="image18.jpg" title="bathroom">
+                        <img src="image18.jpg" alt="" loading="lazy">
+                    </a>
+                </div>
+                <div class="box" id="box5">
+                    <div id="over5" class="over">
+                        <p>Washroom</p>
+                    </div>
+                    <a href="image20.jpg" title="Washroom">
+                        <img src="image20.jpg" alt="" loading="lazy">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--Project SEction Ends-->
+        <!--Footer Scetion Starts-->
+        <section class="container-fluid footer">
+            <div class="row">
+
+                <div class="col-md-3 imgwd">
+                    <h2><a href="/" class="logo"><img class="logoimg" src="logo.png" widht="60" height="50" loading="lazy"></a></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid temporibus alias aut deserunt
+                        quas
+                        minima distinctio unde nulla assumenda, corporis sequi voluptates vero et iure quam ipsum fugit
+                        magni. Similique.</p>
+                </div>
+                <div class="col-md-3">
+                    <h2>Our Location</h2>
+                    <div class="list">
+                        <a href="#">India</a>
+                        <a href="#">WestBengal</a>
+                        <a href="#">Howrah</a>
+                        <a href="#">Belur</a>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h2>Follow Us On</h2>
+                    <div class="list">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Pinterest</a>
+                        <a class="ghd"></a>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center text-md-left letter">
+                    <h2>Newsletter</h2>
+                    <p>Subscribe for the Latest Updates</p>
+                    <input style="border-radius: 7px;" type="email" id="eml" placeholder="Enter your Email">
+                    <input style="border-radius: 7px;" id="btnn" type="button" onclick="submit()" placeholder="Subscribe">
+                </div>
+            </div>
+            <h1 class="credit">Created by <span>Team Blackpencil</span> | all rights reserved.</h1>
+
+        </section>
+        <!--Footer Scetion Ends-->
+
+
+
+
+
+
+
+
+        <!--JQuery File-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <!--Magnific Popup link-->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+        <!--JavaScript file-->
+        <script src="main.js"></script>
+</body>
+
+</html>
